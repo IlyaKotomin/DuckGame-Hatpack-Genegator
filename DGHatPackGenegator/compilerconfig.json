@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/nescss/scss/nes-core.css",
+    "inputFile": "wwwroot/css/nescss/scss/nes-core.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/nescss/scss/nes.css",
+    "inputFile": "wwwroot/css/nescss/scss/nes.scss"
+  }
+]

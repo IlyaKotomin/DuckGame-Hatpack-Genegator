@@ -6,4 +6,43 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\nescss\.storybook\preview-head.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LigerShark.WebOptimizer.Sass" Version="3.0.91" />
+    <PackageReference Include="nopCommerce.WebOptimizer.Core" Version="3.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\css\nescss\.circleci\config.yml" />
+    <None Include="wwwroot\css\nescss\.github\CODE_OF_CONDUCT-es.md" />
+    <None Include="wwwroot\css\nescss\.github\CODE_OF_CONDUCT-jp.md" />
+    <None Include="wwwroot\css\nescss\.github\CODE_OF_CONDUCT-pt-BR.md" />
+    <None Include="wwwroot\css\nescss\.github\CODE_OF_CONDUCT-zh-CN.md" />
+    <None Include="wwwroot\css\nescss\.github\CONTRIBUTING-es.md" />
+    <None Include="wwwroot\css\nescss\.github\CONTRIBUTING-jp.md" />
+    <None Include="wwwroot\css\nescss\.github\CONTRIBUTING-pt-BR.md" />
+    <None Include="wwwroot\css\nescss\.github\CONTRIBUTING-zh-CN.md" />
+    <None Include="wwwroot\css\nescss\.github\CONTRUBUTING-ru.md" />
+    <None Include="wwwroot\css\nescss\.github\FUNDING.yml" />
+    <None Include="wwwroot\css\nescss\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\css\nescss\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\css\nescss\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\css\nescss\.github\README-es.md" />
+    <None Include="wwwroot\css\nescss\.github\README-jp.md" />
+    <None Include="wwwroot\css\nescss\.github\README-pt-BR.md" />
+    <None Include="wwwroot\css\nescss\.github\README-ru.md" />
+    <None Include="wwwroot\css\nescss\.github\README-zh-CN.md" />
+    <None Include="wwwroot\css\nescss\.storybook\addons.js" />
+    <None Include="wwwroot\css\nescss\.storybook\config.js" />
+    <None Include="wwwroot\css\nescss\.storybook\webpack.config.js" />
+  </ItemGroup>
+
 </Project>
